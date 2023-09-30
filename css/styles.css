@@ -1,0 +1,51 @@
+:root {
+  --main-text-color: #434455;
+  --background-color: #fff;
+  --main-page-color: #2e2f42;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-text-color);
+  background-color: var(--background-color);
+}
+
+.table-of-contents {
+  color: var(--main-page-color);
+}
+
+.headline {
+  background: var(--main-page-color);
+  width: 496px;
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+}
+
+.header-1 {
+  color: var(--background-color);
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.header-strategy-color,
+.header-punctuality-color,
+.header-diligence-color,
+.header-technologies-color {
+  color: var(--main-page-color);
+  font-size: 20px;
+  font-weight: 500;
+  line: height 1.2em;
+}
+
+.header-what-are-we-doing,
+.header-our-team {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.background-our-team {
+  background-color: #f4f4fd;
+}
