@@ -48,8 +48,7 @@ body {
   font-style: normal;
 }
 
-.header-mail-address,
-.header-telephone-number {
+.mail-address-phone-number {
   color: var(--main-text-color);
   font-size: 16px;
   font-weight: 400;
@@ -58,7 +57,9 @@ body {
 }
 
 .table-of-contents:hover,
-.table-of-contents:active {
+.table-of-contents:focus,
+.mail-address-phone-number:hover,
+.mail-address-phone-number:focus {
   color: var(--active-links-color);
 }
 
