@@ -36,9 +36,7 @@ body {
   list-style: none;
 }
 
-.studio-content-page,
-.portfolio-content-page,
-.contacts-content-page {
+.table-of-contents {
   color: var(--main-page-color);
   font-size: 16px;
   font-weight: 500;
@@ -59,11 +57,8 @@ body {
   letter-spacing: 0.32px;
 }
 
-.studio-content-page:active,
-.portfolio-content-page:active,
-.contacts-content-page:active,
-.header-mail-address:active,
-.header-telephone-number:active {
+.table-of-contents:hover,
+.table-of-contents:active {
   color: var(--active-links-color);
 }
 
