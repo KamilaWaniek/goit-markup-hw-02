@@ -29,13 +29,16 @@ body {
 
 .logo {
   color: var(--main-page-color);
+  font-family: "Raleway", sans-serif;
 }
 
 .list {
   list-style: none;
 }
 
-.table-of-contents {
+.studio-content-page,
+.portfolio-content-page,
+.contacts-content-page {
   color: var(--main-page-color);
   font-size: 16px;
   font-weight: 500;
@@ -44,16 +47,23 @@ body {
 }
 
 .header-contacts {
+  font-style: normal;
+}
+
+.header-mail-address,
+.header-telephone-number {
   color: var(--main-text-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 0.32px;
-  font-style: normal;
 }
 
-.table-of-contents:active,
-.header-contacts:active {
+.studio-content-page:active,
+.portfolio-content-page:active,
+.contacts-content-page:active,
+.header-mail-address:active,
+.header-telephone-number:active {
   color: var(--active-links-color);
 }
 
@@ -148,15 +158,13 @@ body {
   flex-shrink: 0;
 }
 
-.link {
-  color: var(--main-page-color-2);
-  font-family: Raleway;
+.website-logo {
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17em;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  text-decoration: none;
 }
 
 .footer-website-logo {
@@ -171,7 +179,6 @@ body {
 
 .footer-main-text {
   color: var(--main-text-color-2);
-  font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
