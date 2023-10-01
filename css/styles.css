@@ -2,6 +2,8 @@
   --main-text-color: #434455;
   --background-color: #fff;
   --main-page-color: #2e2f42;
+  --main-page-color-2: #4d5ae5;
+  --active-links-color: #404bbf;
 }
 
 body {
@@ -10,13 +12,44 @@ body {
   background-color: var(--background-color);
 }
 
+.website-logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--main-page-color);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17em;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo {
+  color: var(--main-page-color-2);
+}
+
 .table-of-contents {
   color: var(--main-page-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.32px;
+  list-style: none;
+}
+
+.header-contacts {
+  color: var(--main-text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.32px;
+}
+
+.table-of-contents:active,
+.header-contacts:active {
+  color: var(--active-links-color);
 }
 
 .headline {
   background: var(--main-page-color);
-  width: 496px;
   width: 1440px;
   height: 600px;
   flex-shrink: 0;
@@ -26,17 +59,39 @@ body {
   color: var(--background-color);
   font-size: 56px;
   font-weight: 700;
+  line-height: 1.07em;
+  letter-spacing: 1.12px;
   text-align: center;
 }
 
-.header-strategy-color,
-.header-punctuality-color,
-.header-diligence-color,
-.header-technologies-color {
+.button-order-service {
+  color: var(--background-color);
+  background: var(--main-page-color-2);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0, 64px;
+}
+
+.button-order-service:hover {
+  color: var(--background-color);
+  background: var(--active-links-color);
+}
+
+.main-goals h3 {
   color: var(--main-page-color);
   font-size: 20px;
   font-weight: 500;
-  line: height 1.2em;
+  line-height: 1.2em;
+  letter-spacing: 0.4px;
+}
+
+.main-goals p {
+  color: var(--main-text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.32px;
 }
 
 .header-what-are-we-doing,
@@ -48,4 +103,20 @@ body {
 
 .background-our-team {
   background-color: #f4f4fd;
+}
+
+.team-members h3 {
+  color: var(--main-page-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.4px;
+}
+
+.team-members p {
+  color: var(--main-text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.32px;
 }
