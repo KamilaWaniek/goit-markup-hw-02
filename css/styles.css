@@ -48,14 +48,14 @@ body {
   color: var(--active-links-color);
 }
 
-.main-page-headline {
+.headline {
   background: var(--main-page-color);
   width: 1440px;
   height: 600px;
   flex-shrink: 0;
 }
 
-.header-1 {
+.main-page-header {
   color: var(--background-color);
   font-size: 56px;
   font-weight: 700;
@@ -76,12 +76,12 @@ body {
 }
 
 .button-order-service:hover,
-.button-order-service:active {
+.button-order-service:focus {
   color: var(--background-color);
   background: var(--active-links-color);
 }
 
-.company-main-goals h3 {
+.company-main-goals {
   color: var(--main-page-color);
   font-size: 20px;
   font-weight: 500;
@@ -89,7 +89,7 @@ body {
   letter-spacing: 0.4px;
 }
 
-.company-main-goals p {
+.main-goals-text {
   color: var(--main-text-color);
   font-size: 16px;
   font-weight: 400;
@@ -112,7 +112,7 @@ body {
   background-color: #f4f4fd;
 }
 
-.company-team-members h3 {
+.company-team-members {
   color: var(--main-page-color);
   font-size: 20px;
   font-weight: 500;
@@ -120,7 +120,7 @@ body {
   letter-spacing: 0.4px;
 }
 
-.company-team-members p {
+.team-member-position {
   color: var(--main-text-color);
   font-size: 16px;
   font-weight: 400;
