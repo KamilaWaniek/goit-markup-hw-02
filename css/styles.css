@@ -180,3 +180,33 @@ body {
   line-height: 1.5em;
   letter-spacing: 0.32px;
 }
+
+.portfolio-category-all {
+  color: var(--main-page-color-2);
+  background-color: var(--main-text-color-2);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.64px;
+}
+
+.portfolio-category-all:hover {
+  color: var(--background-color);
+  background-color: var(--active-links-color);
+}
+
+.services-offered-list {
+  color: var(--main-page-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.4px;
+}
+
+.services-offered-branch {
+  color: var(--main-text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.32px;
+}
