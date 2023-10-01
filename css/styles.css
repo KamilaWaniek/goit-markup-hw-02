@@ -65,9 +65,6 @@ body {
 
 .headline-background {
   background: var(--main-page-color);
-  width: 1440px;
-  height: 600px;
-  flex-shrink: 0;
 }
 
 .main-page-header {
@@ -149,9 +146,6 @@ body {
 
 .footer-background {
   background-color: var(--main-page-color);
-  width: 1440px;
-  height: 312px;
-  flex-shrink: 0;
 }
 
 .website-logo {
