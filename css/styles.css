@@ -182,15 +182,18 @@ body {
 }
 
 .portfolio-category-all {
+  font-family: "Roboto", sans-serif;
   color: var(--main-page-color-2);
   background-color: var(--main-text-color-2);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 
-.portfolio-category-all:hover {
+.portfolio-category-all:hover,
+.portfolio-category-all:focus {
   color: var(--background-color);
   background-color: var(--active-links-color);
 }
